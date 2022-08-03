@@ -8,7 +8,7 @@ const ContactComponent = ({ contact }) => {
             <h2> Nombre: {contact.name}</h2>
             <h3> Apellido : {contact.lastName}</h3>
             <h4> Email: {contact.email}</h4>
-            <h5> estado : {contact.conected ? "Conectado" : "No conectado"} </h5>
+            <h5> estado : {contact.conected ? "Contacto En Línea" : "Contacto No Disponible"} </h5>
         </div>
     );
 };
